@@ -56,7 +56,7 @@ const Home = () => {
     
     useEffect(() => {
       async function response(){
-        const res = await API.get('/api/food', {withCredentials: true})
+        const res = await API.get('/api/food')
         setarrayofobjects(res.data.foodItems)
         setuname(res.data.whichUser)
       }
