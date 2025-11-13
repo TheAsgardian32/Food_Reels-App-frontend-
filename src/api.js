@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL, // base URL will switch automatically
+  baseURL: "https://food-reels-app-backend.onrender.com/", // base URL will switch automatically
   withCredentials: true,
 });
 
